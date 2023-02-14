@@ -8,19 +8,76 @@
 
 /* Begin PBXBuildFile section */
 		7A8BF145299557990060DDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF144299557990060DDDE /* AppDelegate.swift */; };
-		7A8BF147299557990060DDDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF146299557990060DDDE /* ViewController.swift */; };
 		7A8BF14A299557990060DDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8BF148299557990060DDDE /* Main.storyboard */; };
 		7A8BF14C2995579A0060DDDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8BF14B2995579A0060DDDE /* Assets.xcassets */; };
 		7A8BF14F2995579A0060DDDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8BF14D2995579A0060DDDE /* LaunchScreen.storyboard */; };
+		7A8BF161299657370060DDDE /* TVGuideScreenModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF160299657370060DDDE /* TVGuideScreenModule.swift */; };
+		7A8BF163299657490060DDDE /* TVGuideScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF162299657490060DDDE /* TVGuideScreenRouter.swift */; };
+		7A8BF1652996575A0060DDDE /* TVGuideScreenEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1642996575A0060DDDE /* TVGuideScreenEntity.swift */; };
+		7A8BF167299657650060DDDE /* TVGuideScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF166299657650060DDDE /* TVGuideScreenPresenter.swift */; };
+		7A8BF1692996576D0060DDDE /* TVGuideScreenIteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1682996576D0060DDDE /* TVGuideScreenIteractor.swift */; };
+		7A8BF16B2996577F0060DDDE /* TVGuideScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF16A2996577F0060DDDE /* TVGuideScreenViewController.swift */; };
+		7A8BF16E299670010060DDDE /* ModuleInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF16D299670010060DDDE /* ModuleInitializable.swift */; };
+		7A8BF1722996713C0060DDDE /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1712996713C0060DDDE /* UIViewController.swift */; };
+		7A8BF174299673FF0060DDDE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF173299673FF0060DDDE /* BaseView.swift */; };
+		7A8BF1762996742D0060DDDE /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1752996742D0060DDDE /* UIWindow.swift */; };
+		7A8BF1782996744A0060DDDE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1772996744A0060DDDE /* UIView.swift */; };
+		7A8BF17B2996872D0060DDDE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7A8BF17A2996872D0060DDDE /* Alamofire */; };
+		7A8BF1812996877C0060DDDE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1802996877C0060DDDE /* NetworkManager.swift */; };
+		7A8BF183299687900060DDDE /* NetworkErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF182299687900060DDDE /* NetworkErrorMessage.swift */; };
+		7A8BF186299687FF0060DDDE /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF185299687FF0060DDDE /* BaseRequest.swift */; };
+		7A8BF18929968F210060DDDE /* TVGuideRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF18829968F210060DDDE /* TVGuideRequest.swift */; };
+		7A8BF18C29969D930060DDDE /* TVGuide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8BF18B29969D930060DDDE /* TVGuide.storyboard */; };
+		7A8BF18E2996A4D70060DDDE /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF18D2996A4D70060DDDE /* UIStoryboard.swift */; };
+		7A8BF1912996ACF20060DDDE /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 7A8BF1902996ACF20060DDDE /* SVProgressHUD */; };
+		7A8BF1962996AD160060DDDE /* ProgressHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1952996AD160060DDDE /* ProgressHud.swift */; };
+		7A8BF1992996AE960060DDDE /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1982996AE960060DDDE /* Array.swift */; };
+		7A8BF19D299A6AE10060DDDE /* EPGCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF19C299A6AE10060DDDE /* EPGCollectionViewLayout.swift */; };
+		7A8BF19F299A6BF10060DDDE /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF19E299A6BF10060DDDE /* String.swift */; };
+		7A8BF1A1299A6DE60060DDDE /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1A0299A6DE60060DDDE /* Date.swift */; };
+		7A8BF1A9299B98DE0060DDDE /* TVGuideDateScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1A8299B98DE0060DDDE /* TVGuideDateScreenViewController.swift */; };
+		7A8BF1AB299BBC5C0060DDDE /* TVGuideDateScreenIteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1AA299BBC5C0060DDDE /* TVGuideDateScreenIteractor.swift */; };
+		7A8BF1AD299BBC660060DDDE /* TVGuideDateScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1AC299BBC660060DDDE /* TVGuideDateScreenPresenter.swift */; };
+		7A8BF1AF299BBC700060DDDE /* TVGuideDateScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1AE299BBC700060DDDE /* TVGuideDateScreenRouter.swift */; };
+		7A8BF1B1299BBC8A0060DDDE /* TVGuideDateScreenModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1B0299BBC8A0060DDDE /* TVGuideDateScreenModule.swift */; };
+		7A8BF1B4299BDB690060DDDE /* TVGuideDateScreenEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BF1B3299BDB690060DDDE /* TVGuideDateScreenEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A8BF141299557990060DDDE /* VMediaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VMediaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8BF144299557990060DDDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A8BF146299557990060DDDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A8BF149299557990060DDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A8BF14B2995579A0060DDDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A8BF14E2995579A0060DDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A8BF160299657370060DDDE /* TVGuideScreenModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideScreenModule.swift; sourceTree = "<group>"; };
+		7A8BF162299657490060DDDE /* TVGuideScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideScreenRouter.swift; sourceTree = "<group>"; };
+		7A8BF1642996575A0060DDDE /* TVGuideScreenEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideScreenEntity.swift; sourceTree = "<group>"; };
+		7A8BF166299657650060DDDE /* TVGuideScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideScreenPresenter.swift; sourceTree = "<group>"; };
+		7A8BF1682996576D0060DDDE /* TVGuideScreenIteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideScreenIteractor.swift; sourceTree = "<group>"; };
+		7A8BF16A2996577F0060DDDE /* TVGuideScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideScreenViewController.swift; sourceTree = "<group>"; };
+		7A8BF16D299670010060DDDE /* ModuleInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleInitializable.swift; sourceTree = "<group>"; };
+		7A8BF1712996713C0060DDDE /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		7A8BF173299673FF0060DDDE /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		7A8BF1752996742D0060DDDE /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
+		7A8BF1772996744A0060DDDE /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7A8BF1802996877C0060DDDE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7A8BF182299687900060DDDE /* NetworkErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorMessage.swift; sourceTree = "<group>"; };
+		7A8BF185299687FF0060DDDE /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		7A8BF18829968F210060DDDE /* TVGuideRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideRequest.swift; sourceTree = "<group>"; };
+		7A8BF18A29969C410060DDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8BF18B29969D930060DDDE /* TVGuide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TVGuide.storyboard; sourceTree = "<group>"; };
+		7A8BF18D2996A4D70060DDDE /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		7A8BF1952996AD160060DDDE /* ProgressHud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHud.swift; sourceTree = "<group>"; };
+		7A8BF1982996AE960060DDDE /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		7A8BF19C299A6AE10060DDDE /* EPGCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPGCollectionViewLayout.swift; sourceTree = "<group>"; };
+		7A8BF19E299A6BF10060DDDE /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		7A8BF1A0299A6DE60060DDDE /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		7A8BF1A8299B98DE0060DDDE /* TVGuideDateScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideDateScreenViewController.swift; sourceTree = "<group>"; };
+		7A8BF1AA299BBC5C0060DDDE /* TVGuideDateScreenIteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideDateScreenIteractor.swift; sourceTree = "<group>"; };
+		7A8BF1AC299BBC660060DDDE /* TVGuideDateScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideDateScreenPresenter.swift; sourceTree = "<group>"; };
+		7A8BF1AE299BBC700060DDDE /* TVGuideDateScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideDateScreenRouter.swift; sourceTree = "<group>"; };
+		7A8BF1B0299BBC8A0060DDDE /* TVGuideDateScreenModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideDateScreenModule.swift; sourceTree = "<group>"; };
+		7A8BF1B3299BDB690060DDDE /* TVGuideDateScreenEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideDateScreenEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A8BF1912996ACF20060DDDE /* SVProgressHUD in Frameworks */,
+				7A8BF17B2996872D0060DDDE /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,13 +112,297 @@
 		7A8BF143299557990060DDDE /* VMediaTest */ = {
 			isa = PBXGroup;
 			children = (
-				7A8BF144299557990060DDDE /* AppDelegate.swift */,
-				7A8BF146299557990060DDDE /* ViewController.swift */,
-				7A8BF148299557990060DDDE /* Main.storyboard */,
-				7A8BF14B2995579A0060DDDE /* Assets.xcassets */,
-				7A8BF14D2995579A0060DDDE /* LaunchScreen.storyboard */,
+				7A8BF155299654F40060DDDE /* Application */,
+				7A8BF1922996ACF90060DDDE /* Common */,
+				7A8BF158299655370060DDDE /* Core */,
+				7A8BF1592996554C0060DDDE /* Flows */,
+				7A8BF156299655030060DDDE /* Storyboards */,
+				7A8BF157299655130060DDDE /* Resources */,
 			);
 			path = VMediaTest;
+			sourceTree = "<group>";
+		};
+		7A8BF155299654F40060DDDE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF144299557990060DDDE /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7A8BF156299655030060DDDE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF148299557990060DDDE /* Main.storyboard */,
+				7A8BF14D2995579A0060DDDE /* LaunchScreen.storyboard */,
+				7A8BF18B29969D930060DDDE /* TVGuide.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7A8BF157299655130060DDDE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF18A29969C410060DDDE /* Info.plist */,
+				7A8BF14B2995579A0060DDDE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7A8BF158299655370060DDDE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF17C299687400060DDDE /* Network */,
+				7A8BF16F299671240060DDDE /* Extensions */,
+				7A8BF16C2996589D0060DDDE /* Protocols */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7A8BF1592996554C0060DDDE /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1A2299B988D0060DDDE /* TVGuideDateScreen */,
+				7A8BF15A2996559B0060DDDE /* TVGuideScreen */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		7A8BF15A2996559B0060DDDE /* TVGuideScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF160299657370060DDDE /* TVGuideScreenModule.swift */,
+				7A8BF15F299657210060DDDE /* View */,
+				7A8BF15E299657180060DDDE /* Iteractor */,
+				7A8BF15D2996570D0060DDDE /* Presenter */,
+				7A8BF15C299657010060DDDE /* Entity */,
+				7A8BF15B299655A50060DDDE /* Router */,
+			);
+			path = TVGuideScreen;
+			sourceTree = "<group>";
+		};
+		7A8BF15B299655A50060DDDE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF162299657490060DDDE /* TVGuideScreenRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7A8BF15C299657010060DDDE /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1642996575A0060DDDE /* TVGuideScreenEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		7A8BF15D2996570D0060DDDE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF166299657650060DDDE /* TVGuideScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7A8BF15E299657180060DDDE /* Iteractor */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1682996576D0060DDDE /* TVGuideScreenIteractor.swift */,
+			);
+			path = Iteractor;
+			sourceTree = "<group>";
+		};
+		7A8BF15F299657210060DDDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF19A2996DDB70060DDDE /* Subviews */,
+				7A8BF16A2996577F0060DDDE /* TVGuideScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A8BF16C2996589D0060DDDE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF16D299670010060DDDE /* ModuleInitializable.swift */,
+				7A8BF173299673FF0060DDDE /* BaseView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7A8BF16F299671240060DDDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1972996AE8C0060DDDE /* Foundation */,
+				7A8BF1702996712F0060DDDE /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7A8BF1702996712F0060DDDE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1712996713C0060DDDE /* UIViewController.swift */,
+				7A8BF1752996742D0060DDDE /* UIWindow.swift */,
+				7A8BF1772996744A0060DDDE /* UIView.swift */,
+				7A8BF18D2996A4D70060DDDE /* UIStoryboard.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		7A8BF17C299687400060DDDE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF17F2996876F0060DDDE /* Manager */,
+				7A8BF17E299687670060DDDE /* Errors */,
+				7A8BF17D2996875B0060DDDE /* Requests */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7A8BF17D2996875B0060DDDE /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF18729968F130060DDDE /* TVGuide */,
+				7A8BF184299687EC0060DDDE /* Base */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		7A8BF17E299687670060DDDE /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF182299687900060DDDE /* NetworkErrorMessage.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		7A8BF17F2996876F0060DDDE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1802996877C0060DDDE /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7A8BF184299687EC0060DDDE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF185299687FF0060DDDE /* BaseRequest.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7A8BF18729968F130060DDDE /* TVGuide */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF18829968F210060DDDE /* TVGuideRequest.swift */,
+			);
+			path = TVGuide;
+			sourceTree = "<group>";
+		};
+		7A8BF1922996ACF90060DDDE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1932996AD060060DDDE /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7A8BF1932996AD060060DDDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1942996AD0F0060DDDE /* ProgressHud */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A8BF1942996AD0F0060DDDE /* ProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1952996AD160060DDDE /* ProgressHud.swift */,
+			);
+			path = ProgressHud;
+			sourceTree = "<group>";
+		};
+		7A8BF1972996AE8C0060DDDE /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1982996AE960060DDDE /* Array.swift */,
+				7A8BF19E299A6BF10060DDDE /* String.swift */,
+				7A8BF1A0299A6DE60060DDDE /* Date.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		7A8BF19A2996DDB70060DDDE /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF19B299A6AD60060DDDE /* EPGCollectionViewLayout */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		7A8BF19B299A6AD60060DDDE /* EPGCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF19C299A6AE10060DDDE /* EPGCollectionViewLayout.swift */,
+			);
+			path = EPGCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		7A8BF1A2299B988D0060DDDE /* TVGuideDateScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1B0299BBC8A0060DDDE /* TVGuideDateScreenModule.swift */,
+				7A8BF1A7299B98CE0060DDDE /* View */,
+				7A8BF1A6299B98C70060DDDE /* Iteractor */,
+				7A8BF1A5299B98C10060DDDE /* Presenter */,
+				7A8BF1B2299BDB520060DDDE /* Entity */,
+				7A8BF1A3299B98B50060DDDE /* Router */,
+			);
+			path = TVGuideDateScreen;
+			sourceTree = "<group>";
+		};
+		7A8BF1A3299B98B50060DDDE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1AE299BBC700060DDDE /* TVGuideDateScreenRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7A8BF1A5299B98C10060DDDE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1AC299BBC660060DDDE /* TVGuideDateScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7A8BF1A6299B98C70060DDDE /* Iteractor */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1AA299BBC5C0060DDDE /* TVGuideDateScreenIteractor.swift */,
+			);
+			path = Iteractor;
+			sourceTree = "<group>";
+		};
+		7A8BF1A7299B98CE0060DDDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1A8299B98DE0060DDDE /* TVGuideDateScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A8BF1B2299BDB520060DDDE /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				7A8BF1B3299BDB690060DDDE /* TVGuideDateScreenEntity.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +421,10 @@
 			dependencies = (
 			);
 			name = VMediaTest;
+			packageProductDependencies = (
+				7A8BF17A2996872D0060DDDE /* Alamofire */,
+				7A8BF1902996ACF20060DDDE /* SVProgressHUD */,
+			);
 			productName = VMediaTest;
 			productReference = 7A8BF141299557990060DDDE /* VMediaTest.app */;
 			productType = "com.apple.product-type.application";
@@ -106,6 +453,10 @@
 				Base,
 			);
 			mainGroup = 7A8BF138299557990060DDDE;
+			packageReferences = (
+				7A8BF1792996872D0060DDDE /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7A8BF18F2996ACF20060DDDE /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
+			);
 			productRefGroup = 7A8BF142299557990060DDDE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -121,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A8BF14F2995579A0060DDDE /* LaunchScreen.storyboard in Resources */,
+				7A8BF18C29969D930060DDDE /* TVGuide.storyboard in Resources */,
 				7A8BF14C2995579A0060DDDE /* Assets.xcassets in Resources */,
 				7A8BF14A299557990060DDDE /* Main.storyboard in Resources */,
 			);
@@ -133,8 +485,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A8BF147299557990060DDDE /* ViewController.swift in Sources */,
+				7A8BF186299687FF0060DDDE /* BaseRequest.swift in Sources */,
+				7A8BF1B1299BBC8A0060DDDE /* TVGuideDateScreenModule.swift in Sources */,
+				7A8BF19D299A6AE10060DDDE /* EPGCollectionViewLayout.swift in Sources */,
+				7A8BF1782996744A0060DDDE /* UIView.swift in Sources */,
+				7A8BF161299657370060DDDE /* TVGuideScreenModule.swift in Sources */,
+				7A8BF16B2996577F0060DDDE /* TVGuideScreenViewController.swift in Sources */,
+				7A8BF1962996AD160060DDDE /* ProgressHud.swift in Sources */,
+				7A8BF163299657490060DDDE /* TVGuideScreenRouter.swift in Sources */,
+				7A8BF183299687900060DDDE /* NetworkErrorMessage.swift in Sources */,
+				7A8BF18E2996A4D70060DDDE /* UIStoryboard.swift in Sources */,
+				7A8BF1762996742D0060DDDE /* UIWindow.swift in Sources */,
+				7A8BF1A9299B98DE0060DDDE /* TVGuideDateScreenViewController.swift in Sources */,
+				7A8BF1992996AE960060DDDE /* Array.swift in Sources */,
+				7A8BF1AF299BBC700060DDDE /* TVGuideDateScreenRouter.swift in Sources */,
+				7A8BF1722996713C0060DDDE /* UIViewController.swift in Sources */,
+				7A8BF18929968F210060DDDE /* TVGuideRequest.swift in Sources */,
+				7A8BF167299657650060DDDE /* TVGuideScreenPresenter.swift in Sources */,
 				7A8BF145299557990060DDDE /* AppDelegate.swift in Sources */,
+				7A8BF1AD299BBC660060DDDE /* TVGuideDateScreenPresenter.swift in Sources */,
+				7A8BF16E299670010060DDDE /* ModuleInitializable.swift in Sources */,
+				7A8BF1812996877C0060DDDE /* NetworkManager.swift in Sources */,
+				7A8BF1692996576D0060DDDE /* TVGuideScreenIteractor.swift in Sources */,
+				7A8BF19F299A6BF10060DDDE /* String.swift in Sources */,
+				7A8BF1AB299BBC5C0060DDDE /* TVGuideDateScreenIteractor.swift in Sources */,
+				7A8BF1A1299A6DE60060DDDE /* Date.swift in Sources */,
+				7A8BF174299673FF0060DDDE /* BaseView.swift in Sources */,
+				7A8BF1652996575A0060DDDE /* TVGuideScreenEntity.swift in Sources */,
+				7A8BF1B4299BDB690060DDDE /* TVGuideDateScreenEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +660,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VMediaTest/Resources/Info.plist;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
@@ -295,6 +674,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
 			};
 			name = Debug;
 		};
@@ -306,6 +686,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VMediaTest/Resources/Info.plist;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
@@ -319,6 +700,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
 			};
 			name = Release;
 		};
@@ -344,6 +726,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A8BF1792996872D0060DDDE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7A8BF18F2996ACF20060DDDE /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wowpotato/SVProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A8BF17A2996872D0060DDDE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A8BF1792996872D0060DDDE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7A8BF1902996ACF20060DDDE /* SVProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A8BF18F2996ACF20060DDDE /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
+			productName = SVProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7A8BF139299557990060DDDE /* Project object */;
 }

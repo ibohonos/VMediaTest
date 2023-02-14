@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="21507" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="appleTV" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Guide Date Screen View Controller-->
+        <scene sceneID="zpN-OP-pgQ">
+            <objects>
+                <viewController storyboardIdentifier="TVGuideDateScreenViewController" id="tMV-7p-3eY" customClass="TVGuideDateScreenViewController" customModule="VMediaTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="80q-JI-q66"/>
+                        <viewControllerLayoutGuide type="bottom" id="sJg-Dl-u7R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6rx-hg-TcD">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" sectionHeaderHeight="66" sectionFooterHeight="66" translatesAutoresizingMaskIntoConstraints="NO" id="w6t-U4-Y6B">
+                                <rect key="frame" x="80" y="60" width="1760" height="960"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oVc-bx-jfC"/>
+                        <constraints>
+                            <constraint firstItem="w6t-U4-Y6B" firstAttribute="leading" secondItem="oVc-bx-jfC" secondAttribute="leading" id="S4h-ou-iRX"/>
+                            <constraint firstItem="oVc-bx-jfC" firstAttribute="trailing" secondItem="w6t-U4-Y6B" secondAttribute="trailing" id="TRL-EO-7Ml"/>
+                            <constraint firstItem="w6t-U4-Y6B" firstAttribute="top" secondItem="oVc-bx-jfC" secondAttribute="top" id="eRH-Hp-tpy"/>
+                            <constraint firstItem="oVc-bx-jfC" firstAttribute="bottom" secondItem="w6t-U4-Y6B" secondAttribute="bottom" id="gEg-Rt-sWZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentTableView" destination="w6t-U4-Y6B" id="BHA-cZ-eMk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uyq-3n-Tz2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2182" y="-74"/>
+        </scene>
+        <!--Guide Screen View Controller-->
+        <scene sceneID="9lE-WX-96o">
+            <objects>
+                <viewController storyboardIdentifier="TVGuideScreenViewController" id="Xgj-up-wSf" customClass="TVGuideScreenViewController" customModule="VMediaTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aTn-mJ-5lt"/>
+                        <viewControllerLayoutGuide type="bottom" id="BrO-eL-FPV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Oo6-ab-TCE">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="BQ8-of-YD4">
+                                <rect key="frame" x="80" y="60" width="1760" height="960"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewLayout key="collectionViewLayout" id="Pme-zc-pIQ" customClass="EPGCollectionViewLayout" customModule="VMediaTest" customModuleProvider="target"/>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rbh-h3-eDf"/>
+                        <constraints>
+                            <constraint firstItem="BQ8-of-YD4" firstAttribute="leading" secondItem="Rbh-h3-eDf" secondAttribute="leading" id="2u5-Rv-wDx"/>
+                            <constraint firstItem="Rbh-h3-eDf" firstAttribute="trailing" secondItem="BQ8-of-YD4" secondAttribute="trailing" id="ebK-m0-AlH"/>
+                            <constraint firstItem="BQ8-of-YD4" firstAttribute="top" secondItem="Rbh-h3-eDf" secondAttribute="top" id="oDM-Tr-WfP"/>
+                            <constraint firstItem="Rbh-h3-eDf" firstAttribute="bottom" secondItem="BQ8-of-YD4" secondAttribute="bottom" id="oN1-uq-oQl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentCollectionView" destination="BQ8-of-YD4" id="kHX-I8-Rek"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7uX-ET-Cqw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-32" y="-74"/>
+        </scene>
+    </scenes>
+</document>
